@@ -78,6 +78,9 @@ After installation, you may need to port-forward the Prometheus and Grafana serv
     In Datasource we have to give the Prometheus URL which we got from minikube service command as looks like below. 
     ![alt text](image.png)
 
+    Create a grafana dashboard using prometheus datasource. 
+    Here you can import the sample dashboard by using 3662 ID
+
 ## Conclusion
 
 You have now successfully installed Prometheus and Grafana in your Kubernetes cluster using Helm. You can further configure these applications based on your requirements. Refer to the [Prometheus documentation](https://prometheus.io/docs/introduction/overview/) and [Grafana documentation](https://grafana.com/docs/grafana/latest/) for more information.
